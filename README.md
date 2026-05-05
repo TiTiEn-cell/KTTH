@@ -55,9 +55,9 @@ INSERT INTO roles(name) VALUES
 ('ROLE_ADMIN'),
 ('ROLE_USER');
 INSERT INTO users(username, password, full_name, enabled) VALUES
-('admin', '$2a$10$7QJ8QzKQzNR3DeuZQ9zj7e4r6tx7j6eN2U0q8nXf4rsVdqOj6u6eK',
+('admin', '$2a$10$eC5cloLkWLlqlw5WWxZb..AXPIBheQWaIE2YgMyuU7zUKzrfbzYie',
 'System Administrator', true),
-('user', '$2a$10$7QJ8QzKQzNR3DeuZQ9zj7e4r6tx7j6eN2U0q8nXf4rsVdqOj6u6eK', 'Normal
+('user', '$2a$10$eC5cloLkWLlqlw5WWxZb..AXPIBheQWaIE2YgMyuU7zUKzrfbzYie', 'Normal
 User', true);
 INSERT INTO user_roles(user_id, role_id) VALUES
 (1, 1),
