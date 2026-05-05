@@ -51,9 +51,6 @@ FOREIGN KEY (category_id) REFERENCES categories(id)
 );
 
 3. Dữ liệu mẫu
-Mật khẩu mẫu nên được mã hoá bằng BCrypt trong ứng dụng.
-Có thể dùng tạm mật khẩu đã mã hoá sẵn dưới đây.
-Mật khẩu đăng nhập của cả hai tài khoản là: 123456
 INSERT INTO roles(name) VALUES
 ('ROLE_ADMIN'),
 ('ROLE_USER');
